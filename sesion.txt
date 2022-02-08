@@ -1,0 +1,390 @@
+Script iniciado en 2022-01-31 12:49:00+01:00 [TERM="xterm-256color" TTY="/dev/pts/60" COLUMNS="58" LINES="37"]
+]0;celiavaq@simba: ~[01;32mceliavaq@simba[00m:[01;34m~[00m$ git clone /srv/git/prpa
+Clonando en 'prpa'...
+hecho.
+]0;celiavaq@simba: ~[01;32mceliavaq@simba[00m:[01;34m~[00m$ cd prpa
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ ls -la
+total 248
+drwxr-xr-x 12 celiavaq celiavaq   4096 ene 31 12:49 [0m[01;34m.[0m
+drwxr-xr-x 11 celiavaq celiavaq   4096 ene 31 12:49 [01;34m..[0m
+drwxr-xr-x  2 celiavaq celiavaq   4096 ene 31 12:49 [01;34mauto[0m
+drwxr-xr-x  4 celiavaq celiavaq   4096 ene 31 12:49 [01;34mejemplos[0m
+drwxr-xr-x  2 celiavaq celiavaq   4096 ene 31 12:49 [01;34mejercicios[0m
+-rw-r--r--  1 celiavaq celiavaq  64390 ene 31 12:49 [01;35mescudo.png[0m
+drwxr-xr-x  2 celiavaq celiavaq   4096 ene 31 12:49 [01;34mestilo[0m
+drwxr-xr-x  4 celiavaq celiavaq   4096 ene 31 12:49 [01;34mexamenes[0m
+drwxr-xr-x  8 celiavaq celiavaq   4096 ene 31 12:49 [01;34m.git[0m
+drwxr-xr-x  3 celiavaq celiavaq   4096 ene 31 12:49 [01;34mipython[0m
+-rw-r--r--  1 celiavaq celiavaq    248 ene 31 12:49 just_ene.aux
+-rw-r--r--  1 celiavaq celiavaq   9261 ene 31 12:49 just_ene.log
+-rw-r--r--  1 celiavaq celiavaq 112327 ene 31 12:49 just_ene.pdf
+-rw-r--r--  1 celiavaq celiavaq   2790 ene 31 12:49 [01;31mjust_ene.synctex.gz[0m
+-rw-r--r--  1 celiavaq celiavaq   2287 ene 31 12:49 just_ene.tex
+drwxr-xr-x  4 celiavaq celiavaq   4096 ene 31 12:49 [01;34mnotebook[0m
+drwxr-xr-x  5 celiavaq celiavaq   4096 ene 31 12:49 [01;34mpracticas[0m
+drwxr-xr-x  2 celiavaq celiavaq   4096 ene 31 12:49 [01;34mproblemas[0m
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ ls -la /examenes
+ls: no se puede acceder a '/examenes': No existe el fichero o el directorio
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ ls -la examenes
+total 16
+drwxr-xr-x  4 celiavaq celiavaq 4096 ene 31 12:49 [0m[01;34m.[0m
+drwxr-xr-x 12 celiavaq celiavaq 4096 ene 31 12:49 [01;34m..[0m
+drwxr-xr-x  2 celiavaq celiavaq 4096 ene 31 12:49 [01;34menero_2018[0m
+drwxr-xr-x  3 celiavaq celiavaq 4096 ene 31 12:49 [01;34mfeb[0m
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ rm just*
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ cp e[K-r ejemplos ejemplos_new
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ cd ejemplos_new
+]0;celiavaq@simba: ~/prpa/ejemplos_new[01;32mceliavaq@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cp ../escudo.png ejem[K[Kem[K[K[K[K../ej emplos
+]0;celiavaq@simba: ~/prpa/ejemplos_new[01;32mceliavaq@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cp ../escudo.png ../ejemplos_new
+]0;celiavaq@simba: ~/prpa/ejemplos_new[01;32mceliavaq@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cd prpa
+bash: cd: prpa: No existe el fichero o el directorio
+]0;celiavaq@simba: ~/prpa/ejemplos_new[01;32mceliavaq@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cd ../
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ rm -r ejemplos_new
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ grep radius *py
+grep: *py: No existe el fichero o el directorio
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ grep -r radius *py
+grep: *py: No existe el fichero o el directorio
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ cd ejemplos
+]0;celiavaq@simba: ~/prpa/ejemplos[01;32mceliavaq@simba[00m:[01;34m~/prpa/ejemplos[00m$ grep *.py[K[K[Kpy
+]0;celiavaq@simba: ~/prpa/ejemplos[01;32mceliavaq@simba[00m:[01;34m~/prpa/ejemplos[00m$ grep radious[K[K[Kus *py
+circle.py:def circle(radius):
+circle.py:    Function that computes the surface of a circle given its radius.
+circle.py:    radius: float
+circle.py:      The radius of the circle
+circle.py:    return math.pi * radius**2
+]0;celiavaq@simba: ~/prpa/ejemplos[01;32mceliavaq@simba[00m:[01;34m~/prpa/ejemplos[00m$ cd ../
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ find -name "tex"*tex"[C[C[C0"[1P"[C
+./estilo/estilo.tex
+./ejercicios/hoja3.tex
+./ejercicios/hoja4.tex
+./practicas/p2/Informatica2017-2018_Practica2.tex
+./practicas/p0/datosAsignatura.tex
+./practicas/p0/practica_0_domino.tex
+./practicas/p1/datosAsignatura.tex
+./practicas/p1/practica_1_ajedrez.tex
+./problemas/datosAsignatura.tex
+./problemas/hoja1.tex
+./problemas/hoja3.tex
+./problemas/hoja2.tex
+./examenes/feb/curso2016/feb2016.tex
+./examenes/feb/codigos_simon.tex
+./examenes/feb/ene2018.tex
+./examenes/feb/ene2017_simon.tex
+./examenes/feb/codigos_2018.tex
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ ls -lSe[Kr
+total 100
+drwxr-xr-x 2 celiavaq celiavaq  4096 ene 31 12:49 [0m[01;34mproblemas[0m
+drwxr-xr-x 5 celiavaq celiavaq  4096 ene 31 12:49 [01;34mpracticas[0m
+drwxr-xr-x 4 celiavaq celiavaq  4096 ene 31 12:49 [01;34mnotebook[0m
+drwxr-xr-x 3 celiavaq celiavaq  4096 ene 31 12:49 [01;34mipython[0m
+drwxr-xr-x 4 celiavaq celiavaq  4096 ene 31 12:49 [01;34mexamenes[0m
+drwxr-xr-x 2 celiavaq celiavaq  4096 ene 31 12:49 [01;34mestilo[0m
+drwxr-xr-x 2 celiavaq celiavaq  4096 ene 31 12:49 [01;34mejercicios[0m
+drwxr-xr-x 5 celiavaq celiavaq  4096 ene 31 13:17 [01;34mejemplos[0m
+drwxr-xr-x 2 celiavaq celiavaq  4096 ene 31 12:49 [01;34mauto[0m
+-rw-r--r-- 1 celiavaq celiavaq 64390 ene 31 12:49 [01;35mescudo.png[0m
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ du -sh
+28M	.
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ ls -lSr -r
+total 100
+drwxr-xr-x 2 celiavaq celiavaq  4096 ene 31 12:49 [0m[01;34mproblemas[0m
+drwxr-xr-x 5 celiavaq celiavaq  4096 ene 31 12:49 [01;34mpracticas[0m
+drwxr-xr-x 4 celiavaq celiavaq  4096 ene 31 12:49 [01;34mnotebook[0m
+drwxr-xr-x 3 celiavaq celiavaq  4096 ene 31 12:49 [01;34mipython[0m
+drwxr-xr-x 4 celiavaq celiavaq  4096 ene 31 12:49 [01;34mexamenes[0m
+drwxr-xr-x 2 celiavaq celiavaq  4096 ene 31 12:49 [01;34mestilo[0m
+drwxr-xr-x 2 celiavaq celiavaq  4096 ene 31 12:49 [01;34mejercicios[0m
+drwxr-xr-x 5 celiavaq celiavaq  4096 ene 31 13:17 [01;34mejemplos[0m
+drwxr-xr-x 2 celiavaq celiavaq  4096 ene 31 12:49 [01;34mauto[0m
+-rw-r--r-- 1 celiavaq celiavaq 64390 ene 31 12:49 [01;35mescudo.png[0m
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ du -h
+4,3M	./notebook/img
+20K	./notebook/.ipynb_checkpoints
+7,2M	./notebook
+12K	./auto
+104K	./estilo
+36K	./ipython/.ipynb_checkpoints
+500K	./ipython
+12K	./ejercicios
+8,0K	./.git/refs/remotes/origin
+12K	./.git/refs/remotes
+4,0K	./.git/refs/tags
+8,0K	./.git/refs/heads
+28K	./.git/refs
+8,0K	./.git/objects/6c
+8,0K	./.git/objects/80
+8,0K	./.git/objects/e8
+16K	./.git/objects/9c
+12K	./.git/objects/2a
+8,0K	./.git/objects/19
+12K	./.git/objects/52
+8,0K	./.git/objects/b3
+8,0K	./.git/objects/c8
+24K	./.git/objects/1a
+8,0K	./.git/objects/d6
+8,0K	./.git/objects/9b
+8,0K	./.git/objects/d0
+8,0K	./.git/objects/35
+16K	./.git/objects/fe
+16K	./.git/objects/72
+8,0K	./.git/objects/df
+12K	./.git/objects/a7
+8,0K	./.git/objects/d7
+12K	./.git/objects/11
+12K	./.git/objects/20
+8,0K	./.git/objects/16
+8,0K	./.git/objects/31
+8,0K	./.git/objects/c9
+12K	./.git/objects/3b
+12K	./.git/objects/84
+20K	./.git/objects/18
+8,0K	./.git/objects/f8
+8,0K	./.git/objects/f6
+16K	./.git/objects/13
+8,0K	./.git/objects/c7
+8,0K	./.git/objects/54
+12K	./.git/objects/24
+12K	./.git/objects/8f
+12K	./.git/objects/3e
+8,0K	./.git/objects/c4
+8,0K	./.git/objects/2c
+8,0K	./.git/objects/fa
+12K	./.git/objects/17
+8,0K	./.git/objects/37
+12K	./.git/objects/01
+8,0K	./.git/objects/b1
+8,0K	./.git/objects/a8
+8,0K	./.git/objects/93
+8,0K	./.git/objects/64
+12K	./.git/objects/e7
+12K	./.git/objects/e6
+8,0K	./.git/objects/98
+8,0K	./.git/objects/af
+12K	./.git/objects/30
+8,0K	./.git/objects/14
+12K	./.git/objects/c5
+20K	./.git/objects/58
+8,0K	./.git/objects/73
+12K	./.git/objects/3f
+12K	./.git/objects/79
+12K	./.git/objects/bb
+16K	./.git/objects/36
+16K	./.git/objects/38
+12K	./.git/objects/1c
+12K	./.git/objects/4c
+8,0K	./.git/objects/b0
+8,0K	./.git/objects/e4
+8,0K	./.git/objects/f9
+8,0K	./.git/objects/ef
+8,0K	./.git/objects/e0
+44K	./.git/objects/e9
+12K	./.git/objects/6e
+8,0K	./.git/objects/92
+8,0K	./.git/objects/eb
+16K	./.git/objects/86
+8,0K	./.git/objects/4b
+12K	./.git/objects/23
+8,0K	./.git/objects/ce
+8,0K	./.git/objects/33
+8,0K	./.git/objects/f0
+8,0K	./.git/objects/53
+8,0K	./.git/objects/87
+8,0K	./.git/objects/02
+12K	./.git/objects/44
+8,0K	./.git/objects/96
+12K	./.git/objects/0b
+8,0K	./.git/objects/b6
+12K	./.git/objects/3a
+8,0K	./.git/objects/0f
+8,0K	./.git/objects/d3
+8,0K	./.git/objects/90
+8,0K	./.git/objects/1b
+8,0K	./.git/objects/7f
+12K	./.git/objects/81
+8,0K	./.git/objects/6b
+12K	./.git/objects/15
+8,0K	./.git/objects/f2
+8,0K	./.git/objects/77
+8,0K	./.git/objects/ad
+12K	./.git/objects/cc
+8,0K	./.git/objects/d8
+8,0K	./.git/objects/da
+12K	./.git/objects/76
+8,0K	./.git/objects/59
+12K	./.git/objects/f3
+8,0K	./.git/objects/50
+12K	./.git/objects/ba
+8,0K	./.git/objects/85
+8,0K	./.git/objects/a0
+12K	./.git/objects/ee
+16K	./.git/objects/ec
+8,0K	./.git/objects/8c
+8,0K	./.git/objects/1e
+12K	./.git/objects/83
+8,0K	./.git/objects/04
+12K	./.git/objects/28
+8,0K	./.git/objects/7c
+8,0K	./.git/objects/2e
+8,0K	./.git/objects/40
+8,0K	./.git/objects/cb
+12K	./.git/objects/dd
+8,0K	./.git/objects/39
+8,0K	./.git/objects/b4
+12K	./.git/objects/5f
+8,0K	./.git/objects/8b
+8,0K	./.git/objects/dc
+8,0K	./.git/objects/46
+8,0K	./.git/objects/4f
+8,0K	./.git/objects/67
+8,0K	./.git/objects/be
+8,0K	./.git/objects/5c
+12K	./.git/objects/08
+8,0K	./.git/objects/63
+8,0K	./.git/objects/00
+8,0K	./.git/objects/a2
+8,0K	./.git/objects/d4
+16K	./.git/objects/61
+8,0K	./.git/objects/9e
+20K	./.git/objects/82
+8,0K	./.git/objects/bd
+12K	./.git/objects/60
+12K	./.git/objects/41
+8,0K	./.git/objects/9d
+8,0K	./.git/objects/0c
+12K	./.git/objects/bf
+12K	./.git/objects/ae
+8,0K	./.git/objects/e2
+16K	./.git/objects/ac
+8,0K	./.git/objects/bc
+8,0K	./.git/objects/25
+8,0K	./.git/objects/fd
+12K	./.git/objects/d2
+12K	./.git/objects/f4
+4,0K	./.git/objects/info
+12K	./.git/objects/47
+16M	./.git/objects/pack
+12K	./.git/objects/f1
+8,0K	./.git/objects/8a
+8,0K	./.git/objects/65
+12K	./.git/objects/d9
+17M	./.git/objects
+52K	./.git/hooks
+4,0K	./.git/branches
+8,0K	./.git/logs/refs/remotes/origin
+12K	./.git/logs/refs/remotes
+8,0K	./.git/logs/refs/heads
+24K	./.git/logs/refs
+32K	./.git/logs
+8,0K	./.git/info
+18M	./.git
+20K	./ejemplos/.ipynb_checkpoints
+36K	./ejemplos/referencias/matrices
+76K	./ejemplos/referencias
+12K	./ejemplos/primos
+196K	./ejemplos
+204K	./practicas/p2
+128K	./practicas/p0
+148K	./practicas/p1
+484K	./practicas
+20K	./problemas
+212K	./examenes/feb/curso2016
+276K	./examenes/feb
+1,6M	./examenes/enero_2018
+1,9M	./examenes
+28M	.
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ df -h
+S.ficheros              Tamaño Usados  Disp Uso% Montado en
+udev                       63G      0   63G   0% /dev
+tmpfs                      13G   1,3G   12G  10% /run
+/dev/mapper/root-root      28G   7,1G   19G  27% /
+tmpfs                      63G   4,0K   63G   1% /dev/shm
+tmpfs                     5,0M      0  5,0M   0% /run/lock
+tmpfs                      63G      0   63G   0% /sys/fs/cgroup
+/dev/nvme1n1p1            256M   100M  157M  39% /boot/efi
+/dev/mapper/root-local    9,2G   1,2G  7,6G  13% /usr/local
+/dev/mapper/root-opt       39G    28G  9,8G  74% /opt
+/dev/mapper/root-home     916G   665G  205G  77% /home
+/dev/mapper/raid-www       98G    72G   22G  77% /var/www
+/dev/mapper/raid-backup   916G   580G  291G  67% /srv/backup
+tmpfs                      13G      0   13G   0% /run/user/1005
+tmpfs                      13G      0   13G   0% /run/user/1000
+/home/luis/.Private       916G   665G  205G  77% /home/luis/Private
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ ls -lsh --sort=size -r
+total 100K
+4,0K drwxr-xr-x 2 celiavaq celiavaq 4,0K ene 31 12:49 [0m[01;34mproblemas[0m
+4,0K drwxr-xr-x 5 celiavaq celiavaq 4,0K ene 31 12:49 [01;34mpracticas[0m
+4,0K drwxr-xr-x 4 celiavaq celiavaq 4,0K ene 31 12:49 [01;34mnotebook[0m
+4,0K drwxr-xr-x 3 celiavaq celiavaq 4,0K ene 31 12:49 [01;34mipython[0m
+4,0K drwxr-xr-x 4 celiavaq celiavaq 4,0K ene 31 12:49 [01;34mexamenes[0m
+4,0K drwxr-xr-x 2 celiavaq celiavaq 4,0K ene 31 12:49 [01;34mestilo[0m
+4,0K drwxr-xr-x 2 celiavaq celiavaq 4,0K ene 31 12:49 [01;34mejercicios[0m
+4,0K drwxr-xr-x 5 celiavaq celiavaq 4,0K ene 31 13:17 [01;34mejemplos[0m
+4,0K drwxr-xr-x 2 celiavaq celiavaq 4,0K ene 31 12:49 [01;34mauto[0m
+ 64K -rw-r--r-- 1 celiavaq celiavaq  63K ene 31 12:49 [01;35mescudo.png[0m
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ [K]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ [K]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ find -name[K[K[K[K[K[K[K[K[K[Kdu -cs * | sort -nr
+10524	total
+7280	notebook
+1852	examenes
+500	ipython
+484	practicas
+196	ejemplos
+104	estilo
+64	escudo.png
+20	problemas
+12	ejercicios
+12	auto
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ rm notebook
+rm: no se puede borrar 'notebook': Es un directorio
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ rm -r notebook
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ cd examenes/feb
+]0;celiavaq@simba: ~/prpa/examenes/feb[01;32mceliavaq@simba[00m:[01;34m~/prpa/examenes/feb[00m$ head -20 ene2018.tx[Kex
+\documentclass[10pt]{examdesign}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage{listings}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumerate}
+
+\lstset{
+  language=Python,
+  frame=single,
+  basicstyle=\sffamily,
+  showstringspaces=false
+  %basicstyle=\ttfamily,
+}
+
+\NumberOfVersions{4} %Poner a 2 en la versión final
+\NoRearrange % Eliminar para generar el examen definitivo
+\ContinuousNumbering
+\IncludeFromFile{codigos_2018.tex}
+]0;celiavaq@simba: ~/prpa/examenes/feb[01;32mceliavaq@simba[00m:[01;34m~/prpa/examenes/feb[00m$ head -20 ene2018.texta il[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@t[1@a[1@i[1@l
+tail: no se puede abrir 'ene2018.text' para lectura: No existe el fichero o el directorio
+]0;celiavaq@simba: ~/prpa/examenes/feb[01;32mceliavaq@simba[00m:[01;34m~/prpa/examenes/feb[00m$ tail -20 ene2018.text[K
+\lstinline{\"la\"}, \lstinline{\"mancha\"}, \lstinline{\"de\"}, \lstinline{\"cuyo\"} y \lstinline{\"nombre\"}.
+Para distinguir si un carácter es una letra o un signo de puntuación o separador puedes suponer definida la siguiente función:
+  \InsertChunk{def_is_letter}
+
+Escribe una función en Python que dada una cadena de caracteres devuelva la lista de las palabras que contiene.
+
+
+  \end{question}
+
+
+
+
+\end{shortanswer}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+]0;celiavaq@simba: ~/prpa/examenes/feb[01;32mceliavaq@simba[00m:[01;34m~/prpa/examenes/feb[00m$ cd:
+bash: cd:: orden no encontrada
+]0;celiavaq@simba: ~/prpa/examenes/feb[01;32mceliavaq@simba[00m:[01;34m~/prpa/examenes/feb[00m$ cd prpa[K[K[K[K../..
+]0;celiavaq@simba: ~/prpa[01;32mceliavaq@simba[00m:[01;34m~/prpa[00m$ exit
+
+Script terminado en 2022-01-31 13:56:11+01:00 [CÓDIGO_SALIDA_ORDEN="0"]
